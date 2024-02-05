@@ -1,0 +1,34 @@
+{
+  "name": "kubor-screenshot-out",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "index": "node index",
+    "short": "node ./short/index.mjs",
+    "webhook": "ts-node ./webhooks/yuque"
+  },
+  "keywords": [
+    "screenshot",
+    "pdf",
+    "export",
+    "photo",
+    "webkubor",
+    "kubor",
+    "puppeteer"
+  ],
+  "author": "webkubor <webkubor@163.com> (wangenbo.cn)",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "flyio": "^0.6.14",
+    "nodemon": "^2.0.4",
+    "puppeteer": "^19.7.1",
+    "typescript": "^5.2.2",
+    "xlsx": "^0.16.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "axios": "^1.3.3",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
